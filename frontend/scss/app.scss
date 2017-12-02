@@ -1,0 +1,26 @@
+﻿@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-button-group;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+//
+// Styles
+//
+
+@import 'globals';
+
+// Modules
+@import 'modules/banner';

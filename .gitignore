@@ -1,0 +1,4 @@
+# Note: VisualStudio gitignore rules may also be relevant
+
+frontend/bower_components
+frontend/node_modules
