@@ -17,7 +17,7 @@ body {
     height: 100%;
 
     &::-webkit-scrollbar {
-        width: 5px;
+        width: 7px;
     }
 
     &::-webkit-scrollbar-track {
@@ -25,12 +25,23 @@ body {
     }
 
     &::-webkit-scrollbar-thumb {
-        border-radius: 5px;
-        background: $theme-color;
+        border-radius: 7px;
+        background: $theme-dark;
     }
 }
 
 main {
     flex: 1 0 auto;
     overflow: hidden;
+}
+
+section {
+    min-height: 60vh; // Can be removed later
+
+    &:nth-child(even) {
+        background-color: $theme-color;
+    }
+    &:nth-child(odd) {
+        background-color: $black;
+    }
 }

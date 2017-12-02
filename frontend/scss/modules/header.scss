@@ -1,0 +1,47 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: $white;
+    border-bottom: 1px solid $light-gray;
+    transition: 0.3s all ease-in-out;
+
+    &.hidden {
+        top: -60px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+
+        li {
+            float: left;
+            line-height: 60px;
+
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+
+            &:last-child {
+                float: right;
+
+                svg {
+                    width: 60px;
+                    height: 40px;
+                    margin: 10px 0;
+                }
+            }
+
+            a {
+                color: $black;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
