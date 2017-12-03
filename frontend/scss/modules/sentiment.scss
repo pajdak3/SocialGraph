@@ -1,0 +1,16 @@
+
+.sentiment {
+    height: 80vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sentiment_avg_image {
+  max-width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+}
